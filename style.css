@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    font-family: arial;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: black;
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/** nav-logo **/
+
+.nav-logo{
+    width: 100px;
+    height: 40px;
+    border: 1px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+.logo{
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    background-position: center;
+    width: 100px;
+    height: 40px;
+}
+
+/** nav-location **/
+
+.deliver{
+    margin-left: 16px;
+    color: #cccccc;
+    font-size: 12px;
+}
+
+span{
+    font-size: 20px;
+    margin-left: 1px;
+    font-weight: 700;
+}
+
+/** search **/
+.navsearch{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    border: 2px solid transparent;
+}
+.navsearch:hover{
+    border: 2px solid orange;
+}
+
+.search-select{
+    width: 80px;
+    text-align: center;
+    border: none;
+    font-size: 14px;
+    outline: none;
+    background-color: #cccccc;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+.search-input{
+    width: 100%;
+    border: none;
+    outline: none;
+}
+.search-icon{
+    width: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: rgb(241, 191, 97);
+    color: black;
+    font-size: 1.4rem;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.account-name{
+    color: #FFFFFF;
+    font-size: 12px;
+}
+.acc-list{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.navcart i{
+    font-size: 23px;
+}
+.navcart{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+.menu{
+    height: 30px;
+    background-color: #232F3E;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.memulogo{
+    color: white;
+    display: flex;
+}
+.menu-all{
+    font-size: 14px;
+    margin-left: 5px;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+.menu-photo{
+    height: 30px;
+}
+
+/** main content **/
+
